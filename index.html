@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Homepage</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/dom58-progressbar.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html">
+            <b>Dom58</b>
+            </a>
+        </div>
+        <div class="rightLinks">
+            <a href="pages/contact.html">
+                Contact Me
+            </a>
+        </div>
+    </div>
+    <div class="categories">
+        <a href="index.html" class="active">Home</a>
+        <a href="pages/cv.html">Curriculum Vitae</a>
+        <a href="pages/mydreams.html">Dreams</a>
+        <a href="pages/photos.html">Gallery</a>
+        <a href="pages/others.html">Others...</a>
+    </div>
+    <div class="container">
+        <div class="content">
+            <div class="profile">
+                <img src="images/passport.jpg" alt="My Profile" title="Ndahimana Dominique Xavier"/>
+                <p class="img-caption">Ndahimana Dominique Xavier</p>
+            </div>
+            <div class="social-media">
+                <span><a href="https://www.facebook.com/Ndahimana Dominic Xavier" target="_blank">Facebook</a></span> | 
+                <span><a href="https://www.twitter.com/dom58" target="_blank">Twitter</a></span> | 
+                <span><a href="https://www.linkedin.com/dom58" target="_blank">LinkedIn</a></span>
+            </div>
+
+            <div class="content-body">
+                <h2>About Me</h2>
+                <hr>
+                <p>I'm a full-stack developer, who is willing to give and to participate in problem solving and able to collaborate in project development. I am able to show my expertise in project management and making it into small tasks.
+                I was working in the different companies where I demonstrated my knowledge in software development.
+                </p>
+                <p>I'm currently living in kigali, Rwanda. I have a bachelor degree in software Engineering. I'm recently worked at Andela Kigali Ltd company as a Software Engineer.</p>
+                <p>I am interested in hard working,teamwork and collaboration, creative design, responsibilities and strong decision making.</p>
+                <br>
+                <h4>
+                    Email: <pre>dndahimana58@gmail.com</pre>
+                    Residence: <pre>Rwanda</pre>
+                </h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-content">
+           <p>All right reserved. &copy; <font id="newDate"></font> By Ndahimana Dominique Xavier</p> 
+        </div>
+    </div>
+    <script>
+        document.getElementById('newDate').innerHTML = new Date().getFullYear()
+    </script>
+</body>
+</html>
