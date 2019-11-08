@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>My Personel Information | CV</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" href="../images/passport.jpg">
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/dom58-progressbar.css'>
+    <script src='../js/main.js'></script>
+</head>
+<body>
+    <div class="navbar">  
+        <div class="headerScroll">
+            <div class="progress-container">
+                <div class="progress-bar" id="myBar"></div>
+            </div>  
+        </div>
+        
+        <div class="logo">
+            <a href="../index.html">
+            <b>Dom58</b>
+            </a>
+        </div>
+        <div class="rightLinks">
+            <a href="contact.html" class="login">
+                Contact Me
+            </a>
+        </div>
+    </div>
+    <div class="categories">
+        <a href="../index.html">Home</a>
+        <a href="cv.html" class="active">Curriculum Vitae</a>
+        <a href="mydreams.html">Dreams</a>
+        <a href="photos.html">Gallery</a>
+        <a href="others.html">Others...</a>
+    </div>
+    <div class="container">
+        <div class="content">
+            <button onclick="createPDF()" class="btn-save-pdf">Save CV as PDF</button>
+            <div class="content-body" id="tableContainer">
+                <div class="header">
+                    <div class="header-title">
+                        <p>Curriculum Vitae</p>
+                    </div>
+                </div>
+                <div class="body">
+                    <div class="body-content">
+                        <h2 class="cvType">Education</h2>
+                        <div class="cv-body">
+                            <h3>Bachelor Degree in Software Engineering (S.E)</h3>
+                            <h4 style="color: #53a653;"><pre>2014 - 2018 </pre></h4>
+                            <p class="location"> &nbsp; College of Science and Technology, Rwanda </p>
+                        </div>
+                        <div class="cv-body">
+                            <h3> Advanced Level Certificate in Phisics, Chemistry and Mathematics P.C.M</h3>
+                            <h4 style="color: #53a653;"><pre>2007 - 2012 </pre></h4>
+                            <p class="location"> &nbsp; EAV Ntendezi, Rwanda </p>
+                        </div>
+
+
+                        <h2 class="cvType">Professional Experience</h2>
+                        <div class="cv-body">
+                            <h3> Software Developer</h3>
+                            <h4 style="color: #53a653;"><pre>2020/10 - PRESENT </pre></h4>
+                            <p class="location"> &nbsp; Stylos Consults Co. Ltd, Rwanda </p>
+                        </div>
+
+                        <div class="cv-body">
+                            <h3> Software Developer</h3>
+                            <h4 style="color: #53a653;"><pre>2019/12 - 2020/05 </pre></h4>
+                            <p class="location"> &nbsp; Meyllos Ltd, Kinshasa </p>
+                        </div>
+
+                        <div class="cv-body">
+                                <h3> Software Engineer</h3>
+                                <h4 style="color: #53a653;"><pre>2019/04 - 2019/10 </pre></h4>
+                                <p class="location"> &nbsp; Andela Kigali Ltd, Rwanda </p>
+                        </div>
+                        <div class="cv-body">
+                                <h3>Software Developer</h3>
+                                <h4 style="color: #53a653;"><pre>2018/12 - 2019/04 </pre></h4>
+                                <p class="location"> &nbsp; Mudacumura Publishing House, Rwanda </p>
+                        </div>
+                        <div class="cv-body">
+                            <h3>Programmer</h3>
+                            <h4 style="color: #53a653;"><pre>2018/04 - 2019/12 </pre></h4>
+                            <p class="location"> &nbsp; Algorithm Inc, Rwanda </p>
+                        </div>
+
+                        <h2 class="cvType">Personel Projects</h2>
+
+                        <div class="cv-body">
+                            <h3>Vuba Rwanda Community</h3>
+                            <a href="https://vubarwanda.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                                <img src="../images/logo.png" alt="Logo" height="50px"/>
+                            </a>
+                            <h4 style="color: #53a653;"><pre> 2020/04 - 2020/05 </pre></h4>
+                            <p>Visit the website ===> <a href="https://vubarwanda.herokuapp.com/" target="_blank" rel="noopener noreferrer">Vuba Rwanda Community</a> </p>
+                        </div>
+
+                        <div class="cv-body">
+                            <h3>Rwanda Impuzabumenyi</h3>
+                            <h4 style="color: #53a653;"><pre> 2018 - PRESENT </pre></h4>
+                            <p>Web application which allow a user to find access
+                                the information about Rwanda like in Culture, Environment, Kinyarwanda Language,...
+                            </p>
+                        </div>
+
+                        <div class="cv-body">
+                            <h3>Ndumukristu</h3>
+                            <h4 style="color: #53a653;"><pre> 2019 - PRESENT </pre></h4>
+                            <p>Web application which allow a user (Roman Catholic) to access easlily the different information, like
+                                daily holy speech and saints, Mysteries, the required publications, open chatting,...
+                            </p>
+                        </div>
+
+                        <h2 class="cvType">Teamwork Projects</h2>
+
+                        <div class="cv-body">
+                            <h3>Rwanda Hospitality & Tourism Educators Association(RHTEA) website</h3>
+                            <a href="https://rhtea.rw/" target="_blank" rel="noopener noreferrer">
+                                <img src="../images/RHTEA.png" alt="Logo" height="50px"/>
+                            </a>
+                            <h4 style="color: #53a653;"><pre> 2020/10 - PRESENT </pre></h4>
+                            <p>Visit RHTEA ===> <a href="https://rhtea.rw/" target="_blank" rel="noopener noreferrer"> RHTEA website</a></p>
+                        </div>
+
+                        <div class="cv-body">
+                            <h3>Chamber of Tourism(COT) website</h3>
+                            <a href="https://rcot.org.rw/" target="_blank" rel="noopener noreferrer">
+                                <img src="../images/cot.png" alt="Logo" height="50px"/>
+                            </a>
+                            <h4 style="color: #53a653;"><pre> 2020/10 - PRESENT </pre></h4>
+                            <p>Visit COT ===> <a href="https://rcot.org.rw/" target="_blank" rel="noopener noreferrer"> COT website</a></p>
+                        </div>
+
+                        <div class="cv-body">
+                            <h3>Rwanda Association of Travel Agencies(RATA) website</h3>
+                            <a href="https://rata.org.rw/" target="_blank" rel="noopener noreferrer">
+                                <img src="../images/rata.jpg" alt="Logo" height="50px"/>
+                            </a>
+                            <h4 style="color: #53a653;"><pre> 2020/10 - PRESENT </pre></h4>
+                            <p>Visit RATA ===> <a href="https://rata.org.rw/" target="_blank" rel="noopener noreferrer"> RATA website</a></p>
+                        </div>
+                        
+                        <div class="cv-body">
+                            <h3>HAAPA STORE IOs App</h3>
+                            <a href="https://apps.apple.com/au/app/haapa-store/id1524804224" target="_blank" rel="noopener noreferrer">
+                                <img src="../images/haapaAndroid.png" alt="Logo" height="50px"/>
+                            </a>
+                            <h4 style="color: #53a653;"><pre> 2020/07 - 2020/10  </pre></h4>
+                            <p>Visit HAAPA STORE ===> <a href="https://apps.apple.com/au/app/haapa-store/id1524804224" target="_blank" rel="noopener noreferrer"> Install HAAPA from App Store</a></p>
+                        </div>
+
+                        <div class="cv-body">
+                            <h3>HAAPA STORE Android App</h3>
+                            <a href="https://play.google.com/store/apps/details?id=com.haapastore.haapa" target="_blank" rel="noopener noreferrer">
+                                <img src="../images/haapaAndroid.png" alt="Logo" height="50px"/>
+                            </a>
+                            <h4 style="color: #53a653;"><pre> 2020/04 - 2020/06  </pre></h4>
+                            <p>Visit HAAPA STORE ===> <a href="https://play.google.com/store/apps/details?id=com.haapastore.haapa" target="_blank" rel="noopener noreferrer"> Install HAAPA from PlayStore</a></p>
+                        </div>
+
+                        <div class="cv-body">
+                            <h3>HAAPA Audio Store</h3>
+                            <a href="https://www.haapastore.com/" target="_blank" rel="noopener noreferrer">
+                                <img src="../images/haapa.png" alt="Logo" height="80px"/>
+                            </a>
+                            <h4 style="color: #53a653;"><pre> 2019/12 - 2020/03  </pre></h4>
+                            <p>Visit the website ===> <a href="https://www.haapastore.com/" target="_blank" rel="noopener noreferrer">HAAPA Audio Store</a></p>
+                        </div>
+
+                        <div class="cv-body">
+                            <h3>SM Development Company Ltd</h3>
+                            <h4 style="color: #53a653;"><pre> 2020/03 - PRESENT   </pre></h4>
+                            <p>Visit the website ===> <a href="https://smdevelopment.herokuapp.com/" target="_blank" rel="noopener noreferrer">SM Development Company Ltd</a></p>
+                        </div>
+
+                        <div class="cv-body">
+                            <h3>Authors Haven</h3>
+                            <h4 style="color: #53a653;"><pre> 2019/07 - 2019/10 </pre></h4>
+                            <p>Visit the website ===> <a href="https://ah-lobos-frontend.herokuapp.com" target="_blank" rel="noopener noreferrer">Authors Haven</a></p>
+                        </div>
+
+                        <div class="cv-body">
+                            <h3>Abahuza</h3>
+                            <h4 style="color: #53a653;"><pre> 2018/09 - 2019/05 </pre></h4>
+                            <p> Visit the website ===> <a href="https://abahuza.com" target="_blank" rel="noopener noreferrer">Abahuza</a></p>
+                        </div>
+
+                        <h2 class="cvType">Formations/ Training</h2>
+                        <div class="cv-body">
+                            <h3>Javascript Programming Bootcamp</h3>
+                            <h4 style="color: #53a653;"><pre> 2018/12 - 2019/06 </pre></h4>
+                            <p class="location"> &nbsp; Telecom House, Rwanda </p>
+                        </div>
+
+                        <div class="cv-body">
+                            <h3>Facebook Developer Hackton</h3>
+                            <h4 style="color: #53a653;"><pre> 2017/11 </pre></h4>
+                            <p class="location"> &nbsp; Carnegie Mellon University, Rwanda </p>
+                        </div>
+
+                        <div class="cv-body">
+                            <h3>Java Netbean Programming Language</h3>
+                            <h4 style="color: #53a653;"><pre> 2017/06 </pre></h4>
+                            <p class="location"> &nbsp; College of Science and Technology, Rwanda </p>
+                            
+                        </div>
+
+                        <div class="cv-body">
+                            <h3>War in Cities</h3>
+                            <h4 style="color: #53a653;"><pre> 2017/07 </pre></h4>
+                            <p class="location"> &nbsp; Kigali Convention Center, Rwanda </p>
+                        </div>
+
+
+                        <br>
+                        <h2 class="cvType">Language</h2>
+                        <div class="other-info">
+                            <h3>Kinyarwanda</h3>
+                            <!-- <p>100%</p> -->
+                            <div class="dom-100"> <b class="dom-progress-label">100%</b>
+                            </div>
+                            <h3>English</h3>
+                            <!-- <p>75%</p> -->
+                            <div class="dom-75 dom-light-green">
+                                <div class="dom-75-green"> <b class="dom-progress-label">75%</b>  
+                                </div>
+                            </div>
+                            <h3>Francais</h3>
+                            <!-- <p>60%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-60-green"><b class="dom-progress-label">60%</b>  
+                                </div>
+                            </div>
+                            <h3>Kiswahili</h3>
+                            <!-- <p>30%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-30-green"> <b class="dom-progress-label">30%</b> 
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <br>
+                        <h2 class="cvType">Relevant Information</h2>
+                        <div class="other-info">
+                            <h3>Window XP, 7, 8.1, 10</h3>
+                            <!-- <p>95%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-95-green"><b class="dom-progress-label">95%</b>  
+                                </div>
+                            </div>
+                            <h3>Ubuntu</h3>
+                            <!-- <p>78%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-78-green"> <b class="dom-progress-label">78%</b>  
+                                </div>
+                            </div>
+                            <h3>Mac OS</h3>
+                            <!-- <p>78%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-78-green"> <b class="dom-progress-label">78%</b>  
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <br>
+                        <h2 class="cvType">Design</h2>
+                        <div class="other-info">
+                            <h3>Adobe XD</h3>
+                            <!-- <p>98%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-98-green"> <b class="dom-progress-label">98%</b>  
+                                </div>
+                            </div>
+                            <h3>Photoshop</h3>
+                            <!-- <p>85%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-85-green"> <b class="dom-progress-label">85%</b>  
+                                </div>
+                            </div>
+                            <h3>Illustrator</h3>
+                            <!-- <p>70%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-70-green"> <b class="dom-progress-label">70%</b>  
+                                </div>
+                            </div>
+                            <h3>Adobe InDesign</h3>
+                            <!-- <p>80%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-80-green"> <b class="dom-progress-label">80%</b>  
+                                </div>
+                            </div>
+                            <h3>Sketch</h3>
+                            <!-- <p>78%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-78-green"> <b class="dom-progress-label">78%</b>  
+                                </div>
+                            </div>
+
+                            <h3>Adobe Audition</h3>
+                            <!-- <p>75%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-75-green"> <b class="dom-progress-label">75%</b>  
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <h2 class="cvType">Frontend</h2>
+                        <div class="other-info">
+                            <h3>HTML,CSS and JS</h3>
+                            <!-- <p>95%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-95-green"><b class="dom-progress-label">95%</b>  
+                                </div>
+                            </div>
+                            <h3>JQuery</h3>
+                            <!-- <p>85%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-85-green"> <b class="dom-progress-label">85%</b>  
+                                </div>
+                            </div>
+                            <h3>Bootstrap</h3>
+                            <!-- <p>97%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-97-green"> <b class="dom-progress-label">97%</b>
+                                </div>
+                            </div>
+                            <h3>ReactJs</h3>
+                            <!-- <p>75%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-75-green"> <b class="dom-progress-label">75%</b>  
+                                </div>
+                            </div>
+                            <h3>VueJs</h3>
+                            <!-- <p>58%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-58-green"> <b class="dom-progress-label">58%</b> 
+                                </div>
+                            </div>
+
+                            <h3>Apollo Client</h3>
+                            <!-- <p>85%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-85-green"> <b class="dom-progress-label">80%</b>  
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <h2 class="cvType">Backend</h2>
+                        <div class="other-info">
+                            <h3>Laravel PHP</h3>
+                            <!-- <p>95%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-95-green"><b class="dom-progress-label">95%</b>  
+                                </div>
+                            </div>
+                            <h3>NodeJS</h3>
+                            <!-- <p>85%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-85-green"> <b class="dom-progress-label">85%</b>  
+                                </div>
+                            </div>
+
+                            <h3>NodeJS & GraphQL( Apollo Server or GraphQL Yoga ) </h3>
+                            <!-- <p>85%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-85-green"> <b class="dom-progress-label">95%</b>  
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <h2 class="cvType">Content Management System CMS</h2>
+                        <div class="other-info">
+                            <h3>WordPress</h3>
+                            <!-- <p>90%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-90-green"> <b class="dom-progress-label">90%</b>  
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <h2 class="cvType">Programming Language</h2>
+                        <div class="other-info">
+                            <h3>C</h3>
+                            <!-- <p>75%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-75-green"> <b class="dom-progress-label">75%</b>  
+                                </div>
+                            </div>
+                            <h3>C++</h3>
+                            <!-- <p>75%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-75-green"> <b class="dom-progress-label">75%</b>  
+                                </div>
+                            </div>
+                            <h3>C#</h3>
+                            <!-- <p>75%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-75-green"> <b class="dom-progress-label">75%</b>  
+                                </div>
+                            </div>
+                            <h3>Java</h3>
+                            <!-- <p>65%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-65-green"> <b class="dom-progress-label">65%</b> 
+                                </div>
+                            </div>
+                            <h3>NodeJs</h3>
+                            <!-- <p>85%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-85-green"> <b class="dom-progress-label">85%</b>  
+                                </div>
+                            </div>
+                            <h3>PHP</h3>
+                            <!-- <p>90%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-90-green"> <b class="dom-progress-label">90%</b>  
+                                </div>
+                            </div>
+                            <h3>Python</h3>
+                            <!-- <p>25%</p> -->
+                            <div class="dom-light-green">
+                                <div class="dom-25-green"> <b class="dom-progress-label">25%</b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-content">
+            <p> &copy; <font id="newDate"></font> By Dom58. All right reserved.</p>
+        </div>
+    </div>
+    <script>
+        document.getElementById('newDate').innerHTML = new Date().getFullYear();
+    </script>
+
+    <script>
+    function createPDF () {
+        var tableContent = document.getElementById('tableContainer')
+            .innerHTML;
+        var style = '<style>';
+        style = style + 'table {width: 100%;font: 17px Calibri;}';
+        style =
+            style +
+            'table, th, td {border: solid 1px #DDD; border-collapse: collapse;';
+        style = style + 'padding: 2px 3px;text-align: center;}';
+        style = style + '</style>';
+
+        // CREATE A WINDOW OBJECT.
+        var win = window.open('', '', 'height=700,width=700');
+
+        win.document.write('<html><head>');
+        win.document.write('<title>Print Table</title>'); // <title> FOR PDF HEADER.
+        win.document.write(style); // ADD STYLE INSIDE THE HEAD TAG.
+        win.document.write('</head>');
+        win.document.write('<body>');
+        win.document.write(tableContent); // THE TABLE CONTENTS INSIDE THE BODY TAG.
+        win.document.write('</body></html>');
+
+        win.document.close(); // CLOSE THE CURRENT WINDOW.
+
+        win.print(); // PRINT THE CONTENTS.
+        };
+    </script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

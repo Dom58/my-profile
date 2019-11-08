@@ -1,0 +1,123 @@
+
+/* All Progress bars */
+.dom-100 {
+    height: 15px;
+    width: 80%;
+    background-color: #148414;
+    border-radius: 30px;
+  }
+  .dom-light-green {
+    height: 15px;
+    width: 80%;
+    background-color: #c6f3c6;
+    border-radius: 30px;
+  }
+  .dom-75-green {
+    height: 15px;
+    width: 75%;
+    background-color: #148414;
+    border-radius: 30px;
+  }
+  .dom-60-green {
+    height: 15px;
+    width: 60%;
+    background-color: #148414;
+    border-radius: 30px;
+  }
+  .dom-30-green {
+    height: 15px;
+    width: 30%;
+    background-color: #148414;
+    border-radius: 30px;
+  }
+  
+  .dom-95-green {
+    height: 15px;
+    width: 95%;
+    background-color: #148414;
+    border-radius: 30px;
+  }
+  .dom-78-green {
+    height: 15px;
+    width: 78%;
+    background-color: #148414;
+    border-radius: 30px;
+  }
+  .dom-98-green {
+    height: 15px;
+    width: 98%;
+    background-color: #148414;
+    border-radius: 30px;
+  }
+  .dom-85-green {
+    height: 15px;
+    width: 85%;
+    background-color: #148414;
+    border-radius: 30px;
+  }
+  .dom-70-green {
+    height: 15px;
+    width: 70%;
+    background-color: #148414;
+    border-radius: 30px;
+  }
+  .dom-80-green {
+    height: 15px;
+    width: 80%;
+    background-color: #148414;
+    border-radius: 30px;
+  }
+  .dom-75-green {
+    height: 15px;
+    width: 75%;
+    background-color: #148414;
+    border-radius: 30px;
+  }
+  .dom-95-green {
+    height: 15px;
+    width: 95%;
+    background-color: #148414;
+    border-radius: 30px;
+  }
+  .dom-85-green {
+    height: 15px;
+    width: 85%;
+    background-color: #148414;
+    border-radius: 30px;
+  }
+  .dom-97-green {
+    height: 15px;
+    width: 97%;
+    background-color: #148414;
+    border-radius: 30px;
+  }
+  .dom-58-green {
+    height: 15px;
+    width: 58%;
+    background-color: #148414;
+    border-radius: 30px;
+  }
+  .dom-90-green {
+    height: 15px;
+    width: 90%;
+    background-color: #148414;
+    border-radius: 30px;
+  }
+  .dom-65-green {
+    height: 15px;
+    width: 65%;
+    background-color: #148414;
+    border-radius: 30px;
+  }
+  .dom-25-green {
+    height: 15px;
+    width: 25%;
+    background-color: #148414;
+    border-radius: 30px;
+  }
+  .dom-progress-label {
+    color : white;
+    margin-left: 50%;
+    font-size: 12px;
+  }
+  /* End of Progress bars */
