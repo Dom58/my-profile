@@ -483,13 +483,15 @@ textarea::placeholder {
 .footer {
   margin: 0;
   width: 100%;
-  /* height: 70vh; */
+  height: 70vh;
   margin-top: 10vh;
   margin-left: -10px;
   margin-right: 10px;
   background-color: #404040;
   padding: 30px;
+  bottom: 0;
 }
+
 .footer > .footer-content {
   text-align: center;
   margin-top: 100px;
