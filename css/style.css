@@ -20,7 +20,7 @@ body {
   margin-top: 1px;
 }
 
-.progress-container {
+.progress-containerDom {
   width: 100%;
   height: 7px;
   /* background:rgba(255, 255, 255, 0.87); */
@@ -36,10 +36,10 @@ body {
   border-radius: 10px;
 }
 
-/* Start of navBar style */
+/* Start of navbarDom style */
 
 @media only screen and (min-width: 785px) {
-  .navbar{
+  .navbarDom{
     width: 100%;
     background-color: rgba(255, 255, 255, 0.87);
     padding: 10px;
@@ -110,17 +110,17 @@ body {
     font-weight: normal;
   }
   
-  /* +++++++++++++content +++++++++++++ */
-  .container {
+  /* +++++++++++++contentDom +++++++++++++ */
+  .containerDom {
     margin-left: 12%;
     margin-right: 12%;
   }
-  .profile img {
+  /* .profile img {
     height: 500px;
     width: 400px;
     border-radius: 30px;
     box-shadow: 0px 0px 10px 0px black;
-  }
+  } */
   .img-caption {
     color: black;
     font-size: 25px;
@@ -131,7 +131,7 @@ body {
     font-weight: 600;
     color: #53a653;
   }
-  .content-body {
+  .contentDom-body {
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 50px;
@@ -191,9 +191,9 @@ body {
 }
 
 
-/* +++++++++++++++++++++ Mobile view navbar +++++++++++ */
+/* +++++++++++++++++++++ Mobile view navbarDom +++++++++++ */
 @media only screen and (max-width: 784px) {
-  .navbar{
+  .navbarDom{
     width: 100%;
     background-color: white;
     padding: 15px;
@@ -210,7 +210,7 @@ body {
     top: 10;
   }
 
-  .progress-container {
+  .progress-containerDom {
     width: 97%;
     background:rgba(255, 255, 255, 0.87);
   }
@@ -274,17 +274,17 @@ body {
     font-weight: normal;
   }
 
-  /* +++++++++++++++ Content ++++++++++ */
-  .container {
+  /* +++++++++++++++ contentDom ++++++++++ */
+  .containerDom {
     margin-left: 6%;
     margin-right: 6%;
   }
-  .profile img {
+  /* .profile img {
     height: 250px;
     width: 200px;
     border-radius: 15px;
     box-shadow: 0px 0px 10px 0px black;
-  }
+  } */
   .img-caption {
     color: black;
     font-size: 16px;
@@ -294,7 +294,7 @@ body {
     text-decoration: none;
     color: #53a653;
   }
-  .content-body {
+  .contentDom-body {
     margin-left: 1%;
     margin-right: 1%;
     margin-top: 40px;
@@ -350,14 +350,14 @@ body {
     padding: 10px;
     overflow: hidden;
   }
-  .footer > .footer-content {
+  .footer > .footer-contentDom {
     text-align: center;
     margin-top: 100px;
     font-size: 10px;
     color: #c5c0c0;
   }
 }
-/* ++++++++++++++++++End Mobile View navbar+++++++++++++++++ */
+/* ++++++++++++++++++End Mobile View navbarDom+++++++++++++++++ */
 
 
 
@@ -378,10 +378,10 @@ body {
 /*End of categories style */
 
 
-.profile {
+/* .profile {
   text-align: center;
   margin-top: 40px;
-}
+} */
 .social-media {
   text-align: center;
   margin-top: 10px;
@@ -421,8 +421,9 @@ pre {
   margin-top: 5px;
   box-shadow: 0px 0px 8px 0px #c3a6a6;
 }
-.body-content {
-  padding: 8px;
+.body-contentDom {
+  padding: 8px 8px 8px 8px ;
+  background-color: #fff;
 }
 .cv-body {
   height: auto;
@@ -440,11 +441,11 @@ pre {
   color:  #53a653;
   margin-top: 80px;
 }
-/* End of cv container */
+/* End of cv containerDom */
 
 
 /* Forms */
-.form-content {
+.form-contentDom {
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -465,16 +466,16 @@ textarea::placeholder {
 .btn-save-pdf {
   border: none;
   outline: none;
-  background-color: rgb(192, 76, 30);
+  background-color: #2b612b;
   color: white;
   font-size: 17px;
   padding: 8px;
   border-radius: 5px;
-  margin-left: 30%;
+  margin-left: 40%;
 }
 
 .btn-save-pdf:hover, .btn-save-pdf:focus {
-  background-color: rgb(141, 58, 25);
+  background-color: #428542;
 }
 /* End form */
 
@@ -492,7 +493,7 @@ textarea::placeholder {
   bottom: 0;
 }
 
-.footer > .footer-content {
+.footer > .footer-contentDom {
   text-align: center;
   margin-top: 100px;
   font-size: 20px;
