@@ -432,6 +432,12 @@ pre {
   padding: 5px;
   margin-bottom: 10px;
 }
+
+.cv-body:hover {
+  background-color: #070707 !important;
+  color: white;
+}
+
 .location {
   color: gray; 
   border-left: 2px solid #e0691c; 

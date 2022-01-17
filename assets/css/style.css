@@ -1073,3 +1073,8 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+.dom-light-green, .dom-100 {
+  /* background-color: red !important; */
+  line-height: 12px;
+}
