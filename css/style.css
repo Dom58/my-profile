@@ -566,4 +566,8 @@ textarea::placeholder {
   color: #efe5e5;
 }
 
+.milkbread {
+  width: 100px !important;
+}
+
 /* End footer */
